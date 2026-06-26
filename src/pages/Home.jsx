@@ -22,7 +22,7 @@ export default function Home() {
 
         {/* ISO Badge */}
         <div className="absolute top-28 end-8 sm:end-12 z-10 hidden lg:block">
-          <div className="bg-white/5 backdrop-blur-xl rounded-2xl p-5 border border-white/10 glow-pulse">
+          <div className="bg-white/5 backdrop-blur-xl rounded-2xl p-5 border border-white/10">
             <div className="flex items-center gap-3">
               <Shield size={22} className="text-teal-light" />
               <div>
