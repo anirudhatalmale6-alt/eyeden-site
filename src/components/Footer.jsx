@@ -82,10 +82,6 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone size={15} className="text-teal-light shrink-0" />
-                  <span className="text-sm text-white/60" dir="ltr">+20 112 080 5175</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Phone size={15} className="text-teal-light shrink-0" />
                   <span className="text-sm text-white/60" dir="ltr">+20 105 522 2638</span>
                 </div>
                 <div className="flex items-start gap-3">

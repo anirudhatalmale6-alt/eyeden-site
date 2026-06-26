@@ -19,7 +19,7 @@ export default {
   categories: {
     label: 'OUR EXPERTISE',
     title: 'Product Categories',
-    subtitle: 'From surgical-grade prostheses to lifestyle eyewear — every product reflects our commitment to precision and human well-being.',
+    subtitle: 'From surgical-grade prosthesis to precision medical blocks — every product reflects our commitment to precision and human well-being.',
     ocular: 'Ocular Prosthesis',
     ocularDesc: 'Custom-crafted aesthetic prosthetic eyes with hand-painted iris detail — restoring natural appearance, not sight.',
     pmma: 'PMMA Medical Blocks',
