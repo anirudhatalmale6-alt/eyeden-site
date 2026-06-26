@@ -33,15 +33,15 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-36 pb-28">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 sm:pt-36 pb-32">
           <div className="max-w-2xl">
             <p className="text-[11px] tracking-[0.35em] font-bold text-teal-light mb-8 uppercase animate-fade-up">
               {t.hero.slogan}
             </p>
             <h1 className="animate-fade-up delay-100">
-              <span className="font-display text-5xl sm:text-6xl lg:text-[5.5rem] leading-[0.95] text-white/80 italic block">{t.hero.h1_1}</span>
-              <span className="font-display text-5xl sm:text-6xl lg:text-[5.5rem] leading-[0.95] text-white block mt-2">{t.hero.h1_2}</span>
-              <span className="font-display text-5xl sm:text-6xl lg:text-[5.5rem] leading-[0.95] text-teal-light block mt-2">{t.hero.h1_3}</span>
+              <span className="font-display text-4xl sm:text-6xl lg:text-[5.5rem] leading-[0.95] text-white/80 italic block">{t.hero.h1_1}</span>
+              <span className="font-display text-4xl sm:text-6xl lg:text-[5.5rem] leading-[0.95] text-white block mt-1 sm:mt-2">{t.hero.h1_2}</span>
+              <span className="font-display text-4xl sm:text-6xl lg:text-[5.5rem] leading-[0.95] text-teal-light block mt-1 sm:mt-2">{t.hero.h1_3}</span>
             </h1>
             <p className="text-white/50 text-base sm:text-lg leading-relaxed mt-8 max-w-lg animate-fade-up delay-200">
               {t.hero.subtitle}
