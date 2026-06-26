@@ -10,9 +10,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <div className="flex items-center gap-1 mb-4">
+            <div className="flex items-center gap-1 mb-4" dir="ltr">
               <span className="text-lg tracking-[0.25em] font-semibold">EYEDEN</span>
-              <span className="text-lg tracking-[0.15em] font-light text-white/50 ms-1">GROUP</span>
+              <span className="text-lg tracking-[0.15em] font-light text-white/50 ml-1">GROUP</span>
             </div>
             <p className="text-sm text-white/60 leading-relaxed">{t.footer.desc}</p>
           </div>

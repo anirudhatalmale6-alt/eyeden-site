@@ -21,11 +21,11 @@ export default function Header() {
     <header className="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-          <Link to="/" className="flex items-center gap-1 no-underline">
+          <Link to="/" className="flex items-center gap-1 no-underline" dir="ltr">
             <span className="text-lg sm:text-xl tracking-[0.25em] font-semibold text-navy">
               EYEDEN
             </span>
-            <span className="text-lg sm:text-xl tracking-[0.15em] font-light text-navy/60 ms-1">
+            <span className="text-lg sm:text-xl tracking-[0.15em] font-light text-navy/60 ml-1">
               GROUP
             </span>
           </Link>

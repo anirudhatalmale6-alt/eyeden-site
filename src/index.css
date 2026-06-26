@@ -91,3 +91,33 @@ body {
 .timeline-line {
   background: linear-gradient(to bottom, #0F766E, #14B8A6);
 }
+
+.video-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(15,23,42,0.7) 0%, rgba(15,23,42,0.85) 100%);
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(20,184,166,0.3); }
+  50% { box-shadow: 0 0 40px rgba(20,184,166,0.6); }
+}
+
+.glow-pulse {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
