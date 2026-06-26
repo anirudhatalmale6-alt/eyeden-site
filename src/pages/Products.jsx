@@ -3,12 +3,14 @@ import { ArrowUpRight } from 'lucide-react';
 import { useLang } from '../i18n/LanguageContext';
 
 const PRODUCT_CATEGORIES = {
-  ocular: ['custom3d', 'readyMade', 'semiFinished', 'softEye', 'ultraThin', 'transparentPupil', 'customHD', 'transparentSclera', 'orbital'],
-  implants: ['sphericalImplant', 'structurePMMA', 'peggedPMMA', 'conformers'],
-  accessories: ['digitalIris', 'irisDisc', 'irisesBox', 'measurementBox', 'eyeCareSet', 'trialLensBar'],
-  optical: ['cosmeticBrown', 'colorBlindLenses', 'visualAids', 'droopyEyeglasses', 'colorblindFilters', 'magnifyingGlasses', 'tvGlasses', 'prismaticGlasses'],
+  eyeProsthesis: ['custom3d', 'readyMade', 'semiFinished', 'softEye', 'ultraThin', 'transparentPupil', 'customHD', 'transparentSclera', 'orbital', 'digitalIris', 'irisDisc', 'irisesBox', 'measurementBox', 'eyeCareSet'],
+  conformersBalls: ['sphericalImplant', 'structurePMMA', 'peggedPMMA', 'conformers'],
+  lenses: ['colorblindFilters', 'trialLensBar', 'cosmeticBrown', 'colorBlindLenses', 'visualAids', 'droopyEyeglasses'],
+  ocularImplants: ['inferiorOrbitalRim', 'orbitalRimOnlay', 'enophthalmosWedge', 'orbitalFloor', 'extendedOrbitalRim', 'plateOrbitalImplant', 'anophthalmicShallow', 'bioImplant', 'hollowShericalImplant', 'floorWithRim', 'structureSphericalImplant', 'semiStructureSphere', 'doubleAOrbital', 'quadroSpherical', 'cluchesSymblepharon', 'hollowImplantHoles', 'halfScrewImplant', 'cluchesGlassesPtosis', 'halfSphericalImplant', 'nanoCarbon', 'implantSizer'],
+  magnifyingBioptic: ['magnifyingGlasses', 'tvGlasses', 'prismaticGlasses'],
+  fixationTarget: ['fixationTarget', 'fixationSticks', 'charts'],
+  pmmaDental: ['nanoCam'],
   hearing: ['hearingAids'],
-  nanoCam: ['nanoCam'],
 };
 
 const IMAGE_MAP = {
@@ -41,6 +43,30 @@ const IMAGE_MAP = {
   prismaticGlasses: 'prismaticGlasses.jpg',
   hearingAids: 'hearingAids.jpg',
   nanoCam: 'nanoCam.jpg',
+  inferiorOrbitalRim: 'inferiorOrbitalRim.jpg',
+  orbitalRimOnlay: 'orbitalRimOnlay.jpg',
+  enophthalmosWedge: 'enophthalmosWedge.jpg',
+  orbitalFloor: 'orbitalFloor.jpg',
+  extendedOrbitalRim: 'extendedOrbitalRim.jpg',
+  plateOrbitalImplant: 'plateOrbitalImplant.jpg',
+  anophthalmicShallow: 'anophthalmicShallow.jpg',
+  bioImplant: 'bioImplant.jpg',
+  hollowShericalImplant: 'hollowShericalImplant.jpg',
+  floorWithRim: 'floorWithRim.jpg',
+  structureSphericalImplant: 'structureSphericalImplant.jpg',
+  semiStructureSphere: 'semiStructureSphere.jpg',
+  doubleAOrbital: 'doubleAOrbital.jpg',
+  quadroSpherical: 'quadroSpherical.jpg',
+  cluchesSymblepharon: 'cluchesSymblepharon.jpg',
+  hollowImplantHoles: 'hollowImplantHoles.jpg',
+  halfScrewImplant: 'halfScrewImplant.jpg',
+  cluchesGlassesPtosis: 'cluchesGlassesPtosis.jpg',
+  halfSphericalImplant: 'halfSphericalImplant.jpg',
+  nanoCarbon: 'nanoCarbon.jpg',
+  implantSizer: 'implantSizer.jpg',
+  fixationTarget: 'fixationTarget.jpg',
+  fixationSticks: 'fixationSticks.jpg',
+  charts: 'charts.jpg',
 };
 
 const BASE = import.meta.env.BASE_URL;
