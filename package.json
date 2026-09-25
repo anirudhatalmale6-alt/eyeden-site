@@ -1,11 +1,13 @@
 {
-  "name": "project",
+  "name": "eyeden-site",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "node canary.js && tsc",
-    "prepare": "node canary.js"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
   },
   "dependencies": {
     "lucide-react": "^1.21.0",
